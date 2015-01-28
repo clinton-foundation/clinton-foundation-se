@@ -1,0 +1,91 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 8:36:58 Dec 26, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 4:27:42 Jan 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* 	CSS for 
+	pagination, forms, control modules, etc.
+ */
+
+div.paging { clear: both; padding: 5px 0; text-align: center; margin: 0 0 50px; }
+ul.pageList { list-style: none; color: #808285; text-align: center; }
+ul.pageList li { display: inline-block; border-right: 1px solid #808285; }
+ul.pageList li a { 
+	font-family: "adobe-garamond-pro", Garamond, serif; text-transform: uppercase; letter-spacing: 1px; 
+	font-size: 13px;
+	display: block; text-align: center; width: auto; line-height: normal; padding: 0 10px;
+	color: #036; text-decoration: none;
+}
+ul.pageList li a.active { text-decoration: underline; }	
+ul.pageList li.control { border: none;  } /* prev / next */
+		
+		
+/* ADVANCED SEARCH results listings */
+.advsea-results-list .articlePost:last-child{
+	border:none;
+}		
+
+
+/* UNIFORM JS overrides */
+div.selector span { 
+	overflow:hidden;
+} /* block */	
+.bar-controls { height: 32px; padding: 0 0 22px 0; margin: 0 0 22px 0; border-bottom: 1px solid #808285; }
+.bar-controls h5, .wrapper-controls-inline { float: left; margin: 0 10px 0 0;  }
+.bar-controls h5 { width: auto; font-size: 18px; line-height: 32px; }
+.bar-controls.sidebar { height: auto; border-bottom: none; padding-bottom: 0; }
+.wrapper-controls-inline { width: auto; }
+.wrapper-controls-inline form {  }
+.wrapper-controls-inline form li { height: 32px; }
+.wrapper-controls-inline form label {  }
+.wrapper-controls-inline form div.selector {
+	float: left;
+}
+.wrapper-controls-inline form select, .wrapper-controls-inline form button { float: left; margin: 0 10px 0 0; }
+.wrapper-controls-inline form button, .bar-controls.sidebar form button { 
+	display: inline-block; width: 32px; height: 32px; padding: 0; margin: 0;
+	background: url(/web/20141226083658/http://en.clintonfoundation.se/assets/images/button-arrow-right.png) transparent no-repeat center center; 
+}
+div.selector {
+	margin-bottom: 0;  /* default: 20px */
+	width: 190px;
+	height: 32px;
+	font-weight: normal;
+	color: #464545;
+	font-size: 12px;
+}
+
+div.selector select {
+	width: 190px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	border: solid 1px #fff;
+}
+
+.wrapper-controls-inline div.selector { margin-bottom: 0; }
+
+div.selector span {
+	padding: 0px 25px 0px 2px;
+	cursor: pointer;	
+}
+
+div.selector span {
+	color: #58595b;
+	width: 158px;
+	height: 32px;
+	font-size: 12px;
+	font-weight: normal;
+	text-shadow: 0 1px 0 #fff;
+}
+
+div.selector.disabled span {
+	color: #bbb;
+}

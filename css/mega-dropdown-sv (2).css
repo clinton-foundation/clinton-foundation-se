@@ -1,0 +1,195 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 23:40:13 Dec 25, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 4:26:29 Jan 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.nav-global { list-style: none; margin: 0 auto; text-align: center; }
+.nav-global ul { display : block; }
+.nav-global li { }
+
+ .nav-global a,.second-nav-program .level2 a {
+	color : #fff;
+	text-decoration:none;
+	display : block;
+	width: auto;
+	line-height : 38px;
+	padding: 0 24px;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-global li.level1 {
+	width: auto;
+	display: inline-block;
+	margin: 0; padding: 0;
+	margin-left: -5px!important;
+}
+
+.nav-global li.level1 > a { 
+	height: 14px; padding: 12px 0px 13px 0px;
+	text-transform: uppercase; 	
+	display : block;
+	width: auto;
+	position:relative;
+}
+
+.nav-global li.level1 > a span.deco { 
+	display : block;
+	padding:0 22px 0 24px;
+	position:relative;
+	margin: 0 auto;
+	font-family: "adobe-garamond-pro", Garamond, serif; font-size: 13px; letter-spacing: 1px; line-height : 13px;
+	border-right: 1px solid #fff;
+	text-transform: uppercase; 
+}
+
+.nav-global li.level1:hover > a span.deco{
+	border-right: 1px solid #011135;
+}
+
+
+.nav-global li.level1.last.global-parent > a span.deco {
+	border-right: none;
+}
+
+ .nav-global li.level1,  .nav-global li.level2 { position : relative; }
+ .nav-global li.level2 {
+	float : none;
+	width : auto;
+	display : block;
+	position : relative;
+	margin: 0;
+}
+
+
+.nav-global li#nav-3 li.level2,.nav-global li#nav-368 li.level2{
+	float : left;
+}
+
+
+.nav-global ul li.level2:nth-child(2n) div {
+	border-left: 1px solid #808ea1;
+	border-right: 1px solid #808ea1;
+}
+
+ .nav-global ul li.level2:last-child div {
+	border-right : none;
+}
+
+
+ .nav-global li#nav-3 li.level3 a, .nav-global li.level2 a, .nav-global li#nav-368 li.level3 a {
+	font-size: 12px;
+	line-height: 20px;
+	height: auto;
+}
+
+.wrapper-dropdown li.level2.global-parent > a {
+	font-family: "adobe-garamond-pro", Garamond, serif; font-size: 12px; letter-spacing: 1px; 
+	line-height : 14px; text-transform: uppercase;
+	font-weight: bold; 
+	margin: 0 0 10px;
+}
+
+.nav-global li.level3{
+	float : none;
+	margin: 0;
+}
+
+.nav-global .level2 a {
+	background: transparent;
+	line-height: 1.2em;
+}
+
+.nav-global .level2 > a {
+	background: transparent;
+	line-height: 1.2em;
+}
+
+/* ----------- Hide/Show Div ---------- */
+ .nav-global li.level1:hover {
+	background: #001d42;
+	border-bottom : 0; /* border-bottom : 0; and padding-bottom:1px; keeps <li> and <div> connected */
+	padding-bottom: 0;
+	z-index: 1; /* shadow above adjacent li */
+}
+
+.boxshadow  .nav-global li.level1:hover{
+-moz-box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+-webkit-box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+}
+ .nav-global li.level2 a:hover{
+	text-decoration: underline;
+}
+
+
+.nav-global li#nav-3 div,.nav-global li#nav-368 div{
+	/*width: 510px;*/
+}
+
+ .nav-global li.level1 > div{
+}
+ .nav-global li#nav-3 li.level2 div,.nav-global li#nav-368 li.level2 div{
+	width : auto;
+}
+
+ .nav-global li.level1 > div {
+	position : absolute;
+	left : -1000em;
+	/*margin-top : 1px;*/
+	text-align : left;
+	background: #001d42;
+	min-width: 215px;
+	padding: 10px 0 18px;
+}
+
+.boxshadow  .nav-global li.level1 > div {
+	-moz-box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+	-webkit-box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+	box-shadow: inset 0 0 28px 12px rgba(0,15,48,0.94);
+}
+
+ .nav-global li.level1:hover > div {
+	left: 0px; top : auto;
+}
+
+ .nav-global li.level2 div {
+	position : relative;
+	margin: 0;
+}
+
+
+ .nav-global li.level2 div:last-child{
+	border-right: none;
+}
+
+ .nav-global li div {
+	z-index:1;
+}
+ .nav-global li.level2 div{
+	width:auto;
+}
+ .nav-global li.level3 a, .nav-global li.level2 a{
+	border:none;
+}
+ .nav-global li.level3{
+	width:auto;
+	clear:left;
+}
+ .nav-global li.level2{
+	position:relative;
+	z-index:99;
+	text-align:left;
+}
+#nav-global .drop-about{
+	width:200px
+}

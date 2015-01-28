@@ -1,0 +1,55 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 12:05:39 Dec 26, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 4:27:18 Jan 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* SLIDESHOW - TOPIC */
+#slideshow-topic {  }
+.frame-feature { position: relative; background: #001d42; height: 332px; }
+#slideshow-topic .frame-feature.fullbleed .frame-fullbleed { width: 970px; height: 332px; margin: 0; padding: 0; position: relative; z-index: 1; }
+#slideshow-topic .wrapper-message { position: absolute; z-index: 3; padding: 0; width: 320px; height: 225px; top: 35px; left: 60px; }
+#slideshow-topic .wrapper-message h2 { font-size: 46px; line-height: 42px; }
+#slideshow-topic .wrapper-message p { color: #fff; font-family: Arial, Helvetica, sans-serif; text-transform: none; }
+
+#content-marquee { position: relative; z-index: 3; }
+#slider-wrapper, .wrapper-slideshow { margin: 0; background: #000; position: relative; width: 970px; height: 332px; overflow: hidden;}
+#slideshow-home { margin: 0; padding: 0; background: #001d42; width: 970px; height: 332px; position: relative; top: 0; left: 0; z-index: 1; }	
+
+.wrapper-message { width: 480px; padding: 41px 0 0 60px; float: left; }
+.wrapper-message .message { color: #fff; }
+.wrapper-message .message h2 { font-size: 50px; text-transform: uppercase; font-family: "alternate-gothic-no-2-d", sans-serif; font-weight: 400; 
+	line-height: 46px; margin: 0 0 18px;
+}
+.wrapper-message .message h2 span.subheader {
+	display: block; margin: 8px 0 0; font-weight: normal;
+	font-size: 13px; font-family: "adobe-garamond-pro", Garamond, serif; text-transform: uppercase; line-height: 17px; 
+	padding: 0 0 4px; 
+	letter-spacing: 1px; color: #fff;
+}
+
+.wrapper-message .message ul li { 
+	margin: 0 0 12px; font-size: 13px; font-family: "adobe-garamond-pro", Garamond, serif; text-transform: uppercase; line-height: 13px;  
+	letter-spacing: 1px; color: #fff;
+}
+
+
+.wrapper-message .message ul { margin: 0; }
+
+.wrapper-message .message p { color: #fff; } 
+.wrapper-message .message ul li span.deco { 
+	display: inline-block; font-size: 9px; line-height: 13px; width: 9px; height: 9px; padding: 0 0 0 10px; 
+	background: url(/web/20141226120539/http://en.clintonfoundation.se/assets/images/cta-arrow-white.png) transparent no-repeat center center;
+}
+.wrapper-message .message ul li a, #content-main p .wrapper-message .message ul li a { color: #fff; text-decoration: none; }
+.wrapper-image { width: 484px; height: 322px; overflow: hidden; margin: 0; padding: 0; float: right; background: transparent; margin: 0; }
+.wrapper-image.padded { width: 448px; height: 252px; padding: 35px 36px 35px 0;  }	
+
+.wrapper-media, .wrapper-section { margin: 0 0 20px; }

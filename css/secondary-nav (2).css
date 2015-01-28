@@ -1,0 +1,98 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:22:47 Dec 26, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 4:27:08 Jan 23, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*second nav*/
+#wrapper-secondnav {
+	position: relative;
+}
+
+#second-nav{
+	width: auto;
+	text-align:center;
+	background-color: #001B3F;	
+	height:30px;
+}
+.article-landing #wrapper-secondnav #second-nav{background:#EAE8E8}
+.article-landing #second-nav a{
+	color:#036;
+}
+.article-landing #second-nav li.level1:hover{
+	background:#EAE8E8;
+
+}
+.article-landing {position:relative;z-index:90;}
+.article-landing #second-nav li.level1.last:hover span.deco {border:none}
+.article-landing #second-nav li.level1:hover span.deco {border-right:1px solid #D2D0D0;}
+.article-landing #second-nav li.level1 div{background:#EAE8E8;}
+.article-landing #second-nav li.level1:hover,#second-nav li.level1:hover div{
+-moz-box-shadow: inset 0 0 28px 12px rgba(206,204,204,0.8);
+-webkit-box-shadow: inset 0 0 28px 12px rgba(206,204,204,0.8);
+box-shadow: inset 0 0 20px 12px rgba(206,204,204,0.8);
+}
+.article-landing #second-nav li:nth-child(2) div{ width:150%; }
+#second-nav >li.level1:hover{
+border:none;	
+}	
+#second-nav >li.level1{
+	float:none;
+	display:inline-block;
+	text-align:center;
+}
+#second-nav >li.level1{
+	
+}
+#second-nav li.level1 > div{
+	width:auto;
+	padding-left: 24px;
+	padding-right:24px;
+}
+
+#second-nav li.about{
+	position:absolute;
+	top:2px;
+	
+	
+}
+#second-nav li.about a{
+	padding:8px 0;
+}
+#second-nav .about span{
+	text-decoration:underline;
+}
+
+#second-nav ul.second-nav-program >li a{
+height: 12px; padding: 9px 0px;	
+}
+#second-nav ul.second-nav-program  li.level2 a{
+	padding: 3px 0px;	
+}
+
+
+#second-nav li.last a { border-right: none; }
+ 
+.second-nav-inner{
+	width: 100%;
+
+	padding: 20px 0;
+}
+.second-nav-inner>li{
+	display:block;
+	float:left;
+}
+
+#second-nav li.level1.active .level2 a{
+	text-decoration:none
+}
+
+.article-landing #second-nav li.level1:hover li.level2 span.deco { border: none; }
+

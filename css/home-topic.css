@@ -1,0 +1,38 @@
+/* HOME - focus areas */
+#wrapper-focusareas { height: 158px; }
+ul.menu-focusareas { list-style: none; }
+ul.menu-focusareas li.tile-focus { 
+	display: block; list-style: none; float: left; margin: 0; padding: 0; 
+	border-right: 2px solid #d8d6d6;
+	height: 158px;width:240px;
+	position: relative; overflow: hidden; text-decoration: none; 
+}
+ul.menu-focusareas li.tile-focus.last { border: none; }
+ul.menu-focusareas li.tile-focus a { 
+	display: block;
+	position: relative; margin: 0; padding: 0; width: 240px; height: 158px; 
+}
+
+ul.menu-focusareas li#tile-global-health a span.frame { background-image:url(/images/sprite-focus-globalhealth2.jpg); }
+ul.menu-focusareas li.tile-focus a span.frame { 
+	display: block;
+	position: relative; margin: 0; padding: 0; z-index: 1; width: 240px; height: 158px; top: 0; left: 0; 
+	background: url(../images/sprite-focus-globalhealth.jpg) #000 no-repeat bottom center; }	
+ul.menu-focusareas li a:hover span.frame { background-position: top center; }
+ul.menu-focusareas li#tile-climate-change a span.frame { background-image:url(/images/sprite-focus-environment.jpg); }
+ul.menu-focusareas li#tile-childhood-obesity a span.frame { background-image:url(/images/sprite-focus-childhood.jpg); }
+ul.menu-focusareas li#tile-economic-inequality a span.frame { background-image:url(/images/sprite-focus-economic.jpg); }
+
+ul.menu-focusareas li.tile-focus a h4 { 
+	color: #fff; 
+	font-size: 13px; line-height: 16px; 
+	position: absolute; z-index: 9; top: 125px; left: 0; 
+	text-decoration: none!important;
+	font-family: "adobe-garamond-pro", Garamond, serif; 
+	letter-spacing: 2px; text-transform: uppercase;
+	font-weight: bold; 
+	padding: 0 18px;
+}
+ul.menu-focusareas li.tile-focus a:hover{
+	text-decoration: none!important;
+}
